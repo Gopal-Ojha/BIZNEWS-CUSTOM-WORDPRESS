@@ -22,7 +22,7 @@
                         <div class="col-lg-4">
                             <div class="position-relative mb-3">
                             <a href="<?php the_permalink() ?>" class="img-fluid w-100" style="object-fit: cover;">
-                                        <?php the_post_thumbnail() ?>
+                                        <?php the_post_thumbnail('biznews-featured') ?>
                                     </a>
                                 
                                 <div class="bg-white border border-top-0 p-4">

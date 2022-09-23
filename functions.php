@@ -21,9 +21,10 @@ function biznews_theme_setup() {
 
     add_image_size('biznews-slider-full', 1115, 715, true); // width, height, crop
     add_image_size('biznews-slider-center', 800, 500, true); // width, height, crop
-    add_image_size('biznews-featured', 700, 435, false ); // width, height, crop
+    add_image_size('biznews-featured', 700, 435, true ); // width, height, crop
     add_image_size('biznews-medium', 540, 340, true); // width, height, crop
     add_image_size('biznews-medium-square', 400, 250, true); // width, height, crop
+    add_image_size('biznews-cat', 364, 206, true); // width, height, crop
 
     add_theme_support('automatic-feed-links');
 
